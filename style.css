@@ -72,6 +72,7 @@ a:hover{
         height: 100vh;
         top: 90px;
         right: -200%;
+        transition: all .7s;
     }
     nav ul li {
         display: block;
@@ -83,8 +84,7 @@ a:hover{
     }
     a:hover{
         background: none;
-        color: aliceblue;
-        transition: .4s;
+        color: aliceblue:
     }
     #check:checked ~ ul{
         right: -20px;
